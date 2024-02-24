@@ -1,0 +1,42 @@
+.web-body{
+  background-color: rgb(45, 45, 45);
+  margin: 0;
+  padding-bottom: 1000px;
+}
+
+.movie-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-right: 50px;
+  margin-left: 65px;
+  margin-top: 5px;
+  
+}
+
+.movie-preview{
+  border-width: 1px;
+  box-shadow: 0 0 5px #fff;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(128, 128, 128);
+  display: inline-block;
+  background-color: #27272a;
+  width: 200px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.thumbnails{
+  width: 200px;
+  border-radius: 10px;
+}
+
+.movie-info{
+  width: 200px;
+  color: white;
+  font-weight: bold;
+}
+
+.movie-title{
+  text-align: center;
+}

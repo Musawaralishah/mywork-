@@ -1,0 +1,35 @@
+.tool-tip-div{
+  margin-left: 45px;
+  margin-right: 45px;
+  background-color: rgb(75, 75, 75);
+}
+
+.home-tool-tip,
+.movies-tool-tip,
+.genre-tool-tip,
+.year-tool-tip,
+.quality-tool-tip,
+.shows-tool-tip,
+.series-tool-tip,
+.anime-tool-tip{
+  padding-left: 42px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 42px;
+  background-color: rgb(75, 75, 75);
+  color: white;
+  margin-right: ;
+  border-right: 1px;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-style: solid;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-color: rgb(118, 118, 118);
+  cursor: pointer;
+}
+
+.movies-cat{
+  position: absolute;
+}
